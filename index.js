@@ -11,6 +11,9 @@ module.exports = {
   stages: [
     require('./src/stages/clone-repo')
   ],
+  pipeline_settings: [
+    require('./src/pipeline-settings/status-api-settings')
+  ],
   logs: [],
   accounts: [
     require('./src/accounts/github-oauth')
