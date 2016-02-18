@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "github-webhook-middleware": "0.0.2"
+    "github": "^0.2.4"
   },
   "devDependencies": {
     "mc-extension-validator": "*",
