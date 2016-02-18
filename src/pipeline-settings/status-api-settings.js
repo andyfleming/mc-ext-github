@@ -8,8 +8,8 @@ module.exports = {
   settings: {
     account: {
       name: 'GitHub Account',
-      type: 'account',
-      account_type: 'github',
+      type: 'credentials',
+      credentials_type: 'github',
       required: true
     }
   }
