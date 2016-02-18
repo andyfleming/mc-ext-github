@@ -18,7 +18,7 @@ module.exports = {
     require('./src/pipeline-settings/status-api-settings')
   ],
   logs: [],
-  accounts: [
-    require('./src/accounts/github-oauth')
+  credentials_types: [
+    require('./src/credentials-types/github-token')
   ]
 }
