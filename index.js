@@ -11,6 +11,9 @@ module.exports = {
   stages: [
     require('./src/stages/clone-repo')
   ],
+  pipeline_listeners: [
+    require('./src/pipeline-listeners/status-api')
+  ],
   pipeline_settings: [
     require('./src/pipeline-settings/status-api-settings')
   ],
